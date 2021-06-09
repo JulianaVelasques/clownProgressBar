@@ -21,7 +21,7 @@ This project is a progress Bar for a Clown's web app. It allow people to give a 
 ## API Reference
 
 ### Getting Started
-- Base URL: At present this app can only be run at https://jsfiddle.net/JulianaVelasques/aymsfk1e/199/. 
+- Live Preview (JSFiddle): At present this progress Bar can only be run at https://jsfiddle.net/JulianaVelasques/aymsfk1e/199/. 
 
 ### Functions
 #### getProgress()
