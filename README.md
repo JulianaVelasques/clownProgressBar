@@ -18,8 +18,6 @@
 This project is a progress Bar for a Clown's web app. It allow people to give a "Hahaha!" every time they have to do the Clown's performance evaluation.
 
 
-## API Reference
-
 ### Getting Started
 - Live Preview (JSFiddle): At present this progress Bar can only be run at https://jsfiddle.net/JulianaVelasques/aymsfk1e/209/. 
 - You can use the progress Bar template by inserting the customized tag (`<clown-progress-bar>`) on your `HTML` page.
