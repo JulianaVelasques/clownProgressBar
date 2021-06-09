@@ -23,8 +23,8 @@ This project is a progress Bar for a Clown's web app. It allow people to give a 
 ### Getting Started
 - Base URL: At present this app can only be run at https://jsfiddle.net/JulianaVelasques/aymsfk1e/199/. 
 
-### Endpoints 
-#### Function /getProgress
+### Functions
+#### getProgress()
 - General:
     - Returns the style of the progressBar and the ```aria-valuenow``` attribute that defines the current value for the progressbar .
     
@@ -34,7 +34,7 @@ function getProgress() {
 }
 ```
 
-#### Function /setProgress
+#### setProgress()
 - General:
     - This function determine that the value of progressbar will be the the value of the ```aria-valuenow``` and this ``value`` will change the value of ``width`` that will be displayed on the screen. In short, with this function we can show the progress to the final-user by using the ``innerHTLM`` property to modify the content of the HTML element.
     
@@ -47,7 +47,7 @@ function setProgress(value) {
 }
 ```
 
-#### Function /increment
+#### increment()
 - General:
     - Whit this function we can specify the rules for the progressbar. It will be activated each time the final-user click on the button. So, each time the button is clicked will increase the ``getProgress`` on the screen by 1 and then set it on the screen, it will happens when the progress < than 100.
     - When the clown get 100 "Hahaha!" the user will see a message showing that they found the best clown.
